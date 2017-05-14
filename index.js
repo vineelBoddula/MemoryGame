@@ -17,7 +17,7 @@ app.use(function(req,res,next){
 
 
 //handle index 
-app.get(["/index.html","/index"],function(req,res){
+app.get(["/","/index.html","/index"],function(req,res){
 	/*mongo.connect(DBURL,function(err,db){
     console.log(")
     db.close();
