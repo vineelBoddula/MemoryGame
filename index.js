@@ -1,7 +1,6 @@
 var express = require('express');
 var app = express();
-var url = require('url');
-const ROOT = "./public";
+
 
 var users = [];
 var gameBoard =[];
@@ -14,16 +13,9 @@ app.use(function(req,res,next){
 	next();
 });
 
-
-
-//handle index 
-app.get(["/","/index.html","/index"],function(req,res){
-	/*mongo.connect(DBURL,function(err,db){
-    console.log(")
-    db.close();
-  });*/
-  res.render('index');
-  console.log("index loaded");
+app.get('/',function(req,res){
+  res.sendFile('index.html');
+  //It will find and locate index.html
 });
 
 app.get(["/memory/intro"],function(req,res){
@@ -104,4 +96,4 @@ function makeBoard(size){
 }
 
 
-//app.listen(2406,function(){console.log("Server listening on port 2406");});*/
+//app.listen(2406,function(){console.log("Server listening on port 2406");});

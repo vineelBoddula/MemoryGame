@@ -10,7 +10,7 @@
   "license": "ISC",
   "engines": {
     "node": "7.8.0",
-	"npm": "4.2.x"
+	"npm": "4.2.0"
   },
   "dependencies": {
     "body-parser": "^1.15.2",
