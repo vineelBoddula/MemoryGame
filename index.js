@@ -107,5 +107,5 @@ function makeBoard(size){
 	return board;
 }
 
-
-app.listen(2406,function(){console.log("Server listening on port 2406");});
+/*
+app.listen(2406,function(){console.log("Server listening on port 2406");});*/
