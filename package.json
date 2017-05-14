@@ -4,11 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-	"start": "node index.js",
-  
+  "start": "node index.js",
+  "test": "mocha"
   },
   "author": "Vineel Boddula",
-  
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0"
