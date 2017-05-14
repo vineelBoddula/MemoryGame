@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "start": "node index.js",
-  "test": "mocha",
-  "postinstall": "bower install && grunt build"
+	"start": "node index.js",
+  
   },
   "author": "Vineel Boddula",
   "license": "ISC",
