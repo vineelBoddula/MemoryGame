@@ -85,10 +85,10 @@ function makeBoard(size){
 	}
 	board = [];
 	for(var i=0;i<size;i++){
-		board[i]=[]
+		board[i]=[];
 		for(var j=0;j<size;j++){
 			var r = (Math.floor(Math.random()*items.length));
-			board[i][j]= items.splice(r,1)[0];  //remove item r from the array
+			board[i][j]= items.splice(r,1)[0];  
 			
 		}
 	}
