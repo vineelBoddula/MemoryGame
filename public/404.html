@@ -1,0 +1,26 @@
+<!---Author: Vineel Boddula 
+ Student Number: 101018032 -->
+<!doctype html>
+<html>
+	<head>
+		<title>404: File not found</title>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+<body>
+	<div id="header">
+		<h1>404: Oooooops!</h1>
+	</div>
+	<div id="content">
+		<p>We couldn't find the file you were looking for.</p>
+		<div id="referrerTarget"></div>
+	</div>
+	<script>
+		var target = document.getElementById("referrerTarget");
+		if(document.referrer){
+			target.innerHTML = "<p>You can return to <a href="+document.referrer+">your previous page</a></p>";
+		}else{
+			target.innerHTML = "<p>You should double check the address that you typed. </p>";
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+/*Author: Vineel Boddula 
+ Student Number: 101018032
+*/
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	background-color:#282828;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+#myNavBar{
+	
+  border-color: rgba(34, 34, 34, 0.05);
+  background-color: black;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  
+}
+
+
+
+
+.topnav {
+    font-size: 14px; 
+}
+
+label{
+	text-shadow:3px 3px #4C4CFF;	
+
+}
+
+form{ 
+	background-color: #666600;
+	border-radius:28px;
+}
+
+h1 {
+    padding-top: 80px; 
+    padding-bottom: 5px;
+    text-align: center;
+    color: #e13612;
+    background-size: cover;
+	position: relative;
+    margin: 0;
+	
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.95);
+    font-size: 3em;
+}
+
+#gameBoard {
+	
+	margin: 0 auto; 
+
+	padding-top: 50px; 
+	padding-bottom:100px;
+}
+.matrixA{
+  
+  height:400 px;
+  padding-bottom:20px;
+}
+div.card{
+	
+	box-shadow:2px 2px black;
+	border:4px solid #e2cc02;
+	border-radius:10px;
+	padding:10px;
+	width:100px;
+	height:100px;
+	vertical-align:top;
+	display:inline-block;
+	margin:5px;
+	background: url(mambaLogo.jpg) no-repeat center center;
+
+}
+div.flippedCard{
+	background-color:white;
+	box-shadow:2px 2px black;
+	border:4px solid black;
+	border-radius:10px;
+	padding:10px;
+	width:100px;
+	height:100px;
+	vertical-align:top;
+	display:inline-block;
+	margin:5px;
+	color:black;
+	font-family: Brush Script Std, Brush Script MT, cursive;
+	font-size: 3em;
+	text-align: center;
+
+}
+.banner {
+    
+	padding: 100px 0;
+    color: #f8f8f8;
+    background: url(IMG_20161217_124704.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    background-color:transparent;
+	margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        
+		text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+ 
+}
+
+footer {
+    padding: 10px ;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
