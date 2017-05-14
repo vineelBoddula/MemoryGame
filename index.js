@@ -15,10 +15,6 @@ app.use(function(req,res,next){
 });
 
 
-app.get('/', function(request, response) {
-  response.render('pages/index');
-});
-
 
 //handle index 
 app.get(["/index.html","/index"],function(req,res){
@@ -107,5 +103,5 @@ function makeBoard(size){
 	return board;
 }
 
-/*
-app.listen(2406,function(){console.log("Server listening on port 2406");});*/
+
+//app.listen(2406,function(){console.log("Server listening on port 2406");});*/
